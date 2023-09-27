@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid green;
+            height: 400px;
+            display: flex;
+            /* Now it we want to centre this item of class box then we will use. */
+            justify-content: center;/*It will align the flex item to centre in the horizontal axis*/
+            align-items: center;/*It will align the flex item to centre in the cross axis*/
+            /* If we want gaps in between these boxes then we will use a property called gap which will generate the gaps of elements in between the left most and right most elements*/
+            gap: 10px; /*It is a short hand notaion to right the column gap and row gap together.*/
+            
+        }
+        .box{
+            width: 50px;
+            border: 1px solid brown;
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        
+    </div>
+</body>
+</html>

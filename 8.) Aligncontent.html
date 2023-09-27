@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid green;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            /* gap: 10px; */
+            /* suppose there are multiple rows and the spacing between the rows can be hendled by using align content */
+            align-content: flex-start;/*There will be no gaps among any of the rows*/
+            align-content: flex-end;/*The flex items will come to the bottom of the flex with no spaces between the rows.*/
+            align-content: center;/*The flex items will come to the centre of the flex with no spaces between the rows.*/
+            align-content: space-between;/*The space between the rows will be generated and top most and the bottom most will stich to the border of parent container.*/
+            align-content: space-around;/*Equal spacing will be generated in rows which are in between the top most and bottom most rows and top and bottom most rows will be spaced with respect to the parent container borders which will not be equal to the spaces of the rows which are between them.*/
+            align-content: space-evenly;/*All the rows will be spaced to each other and parent container equally.*/
+        }
+        .box{
+            border: 1px solid brown;
+            background-color:aquamarine;
+            width: 100px;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="box">box-1</div>
+    <div class="box">box-2</div>
+    <div class="box">box-3</div>
+    <div class="box">box-4</div>
+   </div>
+</body>
+</html>

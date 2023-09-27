@@ -1,0 +1,20 @@
+.div2{
+    border: 3px solid rgb(232, 18, 18);
+    text-align: justify;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 10px;
+    margin: 40px;
+    background-color: black;
+    color:black;
+    width: 93%;
+    background-image: linear-gradient(to right, whitesmoke, cyan);
+}
+.div1{
+    min-width: 100px;
+    min-height: 100px;
+    padding: 5px;
+    background-color: gray;
+    border: 3px solid black;
+    
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 400px;
+            border: 2px solid green;
+            display: flex;
+        
+        /* to display above class container in flex we have to typle " display:flex; " */
+        /* As the display is set to flex all the flex items are stacked in the main axis that is the horizontal axis. */
+
+            flex-direction: column;
+        /* by default the direction of the flex is set to horizonatl axis ie rows, but if we set  " flex-direction:colums; the main axis is now changed to vertical axis that is also called cross axis." */
+        }
+        .box{ 
+            border: 1px solid brown;
+            background-color: aquamarine;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+</body>
+</html>

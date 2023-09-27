@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid green;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-wrap:wrap; helps to keep the width intact untill it is possible. */
+            /* There are 3 value of flex-wrap and they are wrap, nowrap, wrap reverse */
+            flex-wrap: nowrap; /*By default the value of the flex wrap is nowrap*/
+            flex-wrap: wrap-reverse;
+            /* there is a short hand notation in which we can write both flex-wrap and flex-direction is a single line by using "flex-flow:wra;' " direction wrap*/
+            flex-flow: column wrap;
+        }
+        .box{
+            border: 1px solid brown;
+            background-color: aquamarine;
+            width: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+</body>
+</html>

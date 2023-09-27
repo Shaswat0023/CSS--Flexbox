@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid green;
+            height: 400px;
+            display: flex;
+            /* flex-direction: column; */
+            
+            /* Justify content aligns all the flex item in the main axis. */
+            justify-content: flex-start;/*all the items are ararnged to the starting of the display*/
+            justify-content: flex-end;/*all the items are ararnged to the end of the display*/
+            justify-content: center;/*all the items are ararnged to the centre of the display*/
+
+            justify-content: space-around;/*all the items are ararnged in the display in such way that the items between the left most and right most items are arrnaged in equal spaces between them and the space between the left most item to the border is not same as of the between items and same for the right most one*/
+
+            justify-content: space-evenly;/*In space around the right most and the left most element are not in equal spacing to each other so to make the spacing equal for each item we use space evenly and all the items are spaced equally to each other nad the border too.*/
+
+            justify-content: space-between;/*In this the left most and right most element has no space to the borders nad rest all elements are spaced equally to each other from both sides*/
+
+        }
+        .box{
+            border: 1px solid green;
+            background-color: aquamarine;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+    </div>
+</body>
+</html>
